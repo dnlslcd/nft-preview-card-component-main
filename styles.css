@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Outfit";
-  src: url(Outfit-VariableFont_wght.ttf)
+  src: url(Outfit-VariableFont_wght.ttf);
 }
 
 body {
@@ -29,7 +29,7 @@ p {
   border-radius: 15px;
 }
 
-.item:hover{
+.item:hover {
   opacity: 70%;
 }
 
@@ -57,7 +57,7 @@ p {
 .details {
   display: flex;
   justify-content: space-between;
-  font-family: 'Outfit';
+  font-family: "Outfit";
   font-size: 1.4rem;
 }
 
@@ -125,4 +125,3 @@ p {
 .creator-name:hover {
   color: #09fff8;
 }
-
