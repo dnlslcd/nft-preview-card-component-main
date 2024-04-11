@@ -29,6 +29,10 @@ p {
   border-radius: 15px;
 }
 
+.item:hover{
+  opacity: 70%;
+}
+
 .description-name {
   color: #fffefb;
   padding-top: 10px;
@@ -44,6 +48,10 @@ p {
 .description-name,
 .description-text {
   font-family: "Outfit", sans-serif;
+}
+
+.description-name:hover {
+  color: #09fff8;
 }
 
 .details {
@@ -112,5 +120,9 @@ p {
 
 .creator-name {
   color: #fffefb;
+}
+
+.creator-name:hover {
+  color: #09fff8;
 }
 
