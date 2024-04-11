@@ -29,4 +29,24 @@ main {
 .creator {
     display: flex;
     align-items: center;
+    gap: 25px
+}
+
+.creator-avatar {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.creator-container {
+    display: flex;
+    gap: 5px;
+}
+
+.creator-creationOf {
+    color: #91AACE
+}
+
+.creator-name {
+    color: #FFFEFB
 }
