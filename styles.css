@@ -27,6 +27,7 @@ p {
 .details {
   display: flex;
   justify-content: space-between;
+  font-family: 'Outfit';
 }
 
 .details-amount {
@@ -51,10 +52,12 @@ p {
 
 .description-name {
   color: #fffefb;
+  padding-top: 10px;
 }
 
 .description-text {
   color: #91aace;
+  line-height: 30px;
 }
 
 .description-name,
@@ -77,6 +80,7 @@ p {
 .creator-container {
   display: flex;
   gap: 5px;
+  font-size: 20px;
 }
 
 .creator-creationOf {
@@ -88,7 +92,7 @@ p {
 }
 
 .border {
-  border: 0.5px solid #91aace;
+  border: 0.1px solid #91aace;
   margin-top: 20px;
   margin-bottom: 20px;
 }
