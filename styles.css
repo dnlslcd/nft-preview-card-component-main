@@ -23,7 +23,8 @@ main {
 }
 
 .description-text {
-    color: #91AACE
+    color: #91AACE;
+   
 }
 
 .creator {
@@ -49,4 +50,10 @@ main {
 
 .creator-name {
     color: #FFFEFB
+}
+
+.border {
+    border: 0.5px solid #91AACE;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
