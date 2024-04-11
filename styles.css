@@ -29,10 +29,28 @@ p {
   border-radius: 15px;
 }
 
+.description-name {
+  color: #fffefb;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+.description-text {
+  color: #91aace;
+  line-height: 30px;
+  font-size: 1.4rem;
+}
+
+.description-name,
+.description-text {
+  font-family: "Outfit", sans-serif;
+}
+
 .details {
   display: flex;
   justify-content: space-between;
   font-family: 'Outfit';
+  font-size: 1.4rem;
 }
 
 .details-amount {
@@ -43,6 +61,12 @@ p {
 
 .details-value {
   color: #09fff8;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.details-clock {
+  height: 22px;
 }
 
 .details-text {
@@ -53,27 +77,21 @@ p {
   display: flex;
   gap: 10px;
   align-items: center;
+  font-size: 1.3rem;
 }
 
-.description-name {
-  color: #fffefb;
-  padding-top: 10px;
-}
-
-.description-text {
-  color: #91aace;
-  line-height: 30px;
-}
-
-.description-name,
-.description-text {
-  font-family: "Outfit", sans-serif;
+.border {
+  border: 0.1px solid #91aace;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 35%;
 }
 
 .creator {
   display: flex;
   align-items: center;
   gap: 25px;
+  font-family: "Outfit";
 }
 
 .creator-avatar {
@@ -84,7 +102,7 @@ p {
 
 .creator-container {
   display: flex;
-  gap: 5px;
+  gap: 8px;
   font-size: 20px;
 }
 
@@ -96,8 +114,3 @@ p {
   color: #fffefb;
 }
 
-.border {
-  border: 0.1px solid #91aace;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
